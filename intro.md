@@ -57,3 +57,25 @@ numeric __not always__ integer
 - double: higher precision
 - complex: complex numbers
 - raw: store raw bytes
+
+## Coercion
+
+How to coerce one variable type to another
+
+    > as.numeric(TRUE)
+    [1] 1
+    > as.numeric(FALSE)
+    [1] 0
+    > as.character(4)
+    [1] "4"
+    > as.numeric(4.5)
+    [1] 4.5
+    > as.integer(4.5)
+    [1] 4
+
+Example when coercion fails. It's not always possible to convert certain type values to another type.
+
+    > as.numeric("Hello")
+    [1] NA
+    Warning message:
+    NAs introduced by coercion

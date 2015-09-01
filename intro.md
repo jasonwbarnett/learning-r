@@ -17,15 +17,15 @@ Intro to R
 - Determine type of value/variable: `class(<value>)`
   - e.g. `class(TRUE)`
 
-### R Data types aka atomic vector types
+## R Data types aka atomic vector types
 
-#### logical
+### logical
 
 - `TRUE`, `T`
 - `FALSE`, `F`
 - `NA`
 
-#### numeric
+### numeric
 
 - `2`
 - `2L`
@@ -45,14 +45,14 @@ integer __is__ numeric
 
 numeric __not always__ integer
 
-#### character
+### character
 
     > "I love my life."
     [1] "I love my life."
     > class("I love my life.")
     [1] "character"
 
-#### other atomic types
+### other atomic types
 
 - double: higher precision
 - complex: complex numbers

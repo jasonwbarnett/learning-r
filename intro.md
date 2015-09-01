@@ -13,5 +13,10 @@ Intro to R
     area <- height * width
     area
 
-Remove variable from workspace: `rm(area)`
-
+- Remove variable from workspace: `rm(area)`
+- Determine type of value/variable: `class(<value>)`
+  - e.g. `class(TRUE)`
+- "logical"
+  - `TRUE`
+  - `FALSE`
+  - `NA`

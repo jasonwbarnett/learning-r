@@ -42,6 +42,7 @@ Intro to R
         [1] TRUE
 
 integer __is__ numeric
+
 numeric __not always__ integer
 
 #### character

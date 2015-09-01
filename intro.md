@@ -32,14 +32,14 @@ Intro to R
 - `class(2)` vs `class(2L)`
 - `2.5` is numeric
 
-    > is.numeric(2)
-    [1] TRUE
-    > is.numeric(2L)
-    [1] TRUE
-    > is.integer(2)
-    [1] FALSE
-    > is.integer(2L)
-    [1] TRUE
+        > is.numeric(2)
+        [1] TRUE
+        > is.numeric(2L)
+        [1] TRUE
+        > is.integer(2)
+        [1] FALSE
+        > is.integer(2L)
+        [1] TRUE
 
 integer __is__ numeric
 numeric __not always__ integer
